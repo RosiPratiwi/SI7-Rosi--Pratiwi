@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.8">
+        <title>form</title>
+    </head>
+    <body>
+        <h1><b>LMP Seafood</b></h1>
+        <p>Silahkan isi data berikut untuk memesan seafood</p>
+        <p>Your Information</p>
+            <fieldset>
+                <label>Nama</label>
+                <input type="text" name="nama"/>
+                <br>
+                <label>Alamat</label>
+                <input type="text" name="alamat"/>
+                <br>
+                <label>No.Telepon</label>
+                <input type="number" name="number"/>
+                <br>
+                <label>E-mail</label>
+                <input type="text" name="E-mail"/>
+                <br>
+            </fieldset>
+    
+                <p>Instruksi Pemesanan</p>
+                <textarea cols="40" rows="4"></textarea>
+                <br>
+                <h2>Pilih menu favoritmu</h2>
+                <i>Seafood</i>
+                <br>
+                <fieldset>
+                        <p>choose one</p>
+                        <input type="checkbox" name="seafood" value="cumi-cumi"/>
+                        <label>Cumi-Cumi</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="kepiting"/>
+                        <label>Kepiting</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="Kerang-hijau"/>
+                        <label>Kerang hijau</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="Lobster"/>
+                        <label>Lobster</label>
+                </fieldset>
+
+                <fieldset>
+                        pilih bumbu yang diinginkan:
+                        <br>
+                        <input type="checkbox" name="seafood" value="saus-asam-manis"/>
+                        <label>Saus asam manis</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="Saus-tiram"/>
+                        <label>Saus tiram</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="Saus-lada-hitam"/>
+                        <label>Saus lada hitam</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="saus-padang"/>
+                        <label>Saus Padang</label>
+                        <br>
+                        <input type="checkbox" name="seafood" value="Sambal-balado"/>
+                        <label>Sambal balado</label>
+                </fieldset>
+
+                <fieldset>
+                        <label>How many seafood:</label>
+                        <input type="number" id="how-many-seafood" name="how-many-seafood" min="1" max="4" step="1" value="0">
+                        <br>
+                        <form action="form2.html">
+                            <input type="submit" value="Bring me a seafood">
+                            <input type="reset" value="reset">
+                        </form>
+                </fieldset>
+    </body>
+</html>
